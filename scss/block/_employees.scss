@@ -1,0 +1,44 @@
+.employees{
+  padding-top: 40px;
+}
+
+.em_title{
+  font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+color: #363738;
+}
+
+.em_tablet{
+  display: none;
+}
+
+.em_laptop{
+  display: none;
+}
+
+.tablet_vers{
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .employees_block{
+    display: flex;
+    gap: 30px;
+  }
+  .em_tablet{
+    display: block;
+  }
+  .em_mobile{
+    display: none;
+  }
+  
+}
+@media screen and (min-width:1024px) {
+  .em_tablet{
+    display: none;
+  }
+  .em_laptop{
+    display: block;
+  }
+}

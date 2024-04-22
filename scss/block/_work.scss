@@ -1,0 +1,166 @@
+.work{
+  padding-top: 72px;
+}
+
+.kampatent{
+  display: none;
+}
+
+.ka2span{
+  display: none;
+}
+
+.stanka{
+  display: none;
+}
+
+.k2span{
+  display: none;
+}
+
+.work_title{
+  font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+color: #363738;
+}
+
+.work_text{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+color: #6b6b6c;
+margin-top: 24px;
+}
+
+.kantener{
+margin-top: 32px;
+}
+
+.work_content_title{
+  font-weight: 600;
+font-size: 18px;
+line-height: 135%;
+color: #363738;
+margin-top: 24px;
+}
+
+.work_content_text{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+color: #6b6b6c;
+margin-top: 16px;
+}
+
+.work_link{
+  font-weight: 600;
+font-size: 16px;
+line-height: 135%;
+color: #363738;
+margin-top: 32px;
+}
+
+.workline{
+  width: 99px;
+  height: 3px;
+  background-color: orange;
+}
+
+@media screen and (min-width:768px) {
+ .kampatent{
+  display: block;
+  border-radius: 10px;
+width: 690px;
+height: 422px;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+background-color: #fff;
+margin-top: 33px;
+ } 
+.ka2span{
+  display: block;
+}
+.kantener_img{
+  display: none;
+}
+ .kantener{
+  border-radius: 10px;
+width: 690px;
+height: 422px;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+background-color: #fff;
+ }
+ .work_text{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #6b6b6c;
+width: 667px;
+ }
+ .work_content_title{
+  margin-left: 32px;
+ }
+ .work_content_text{
+  margin-left: 32px;
+ }
+ .work_link{
+  margin-left: 32px;
+ }
+ .workline{
+  margin-left: 32px;
+ }
+}
+
+@media screen and (min-width:1024px) {
+  .stanka{
+    display: block;
+    border-radius: 10px;
+    width: 393px;
+    height: 439px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    margin-top: 32px;
+  }
+
+.kantener{
+  border-radius: 10px;
+width: 393px;
+height: 439px;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+background-color: #fff;
+}
+.kampatent{
+  border-radius: 10px;
+width: 393px;
+height: 439px;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+background-color: #fff;
+}
+.kampatent_img{
+  display: none;
+}
+.k2span{
+  display: block;
+}
+.work_content{
+  display: flex;
+  gap: 30px;
+}
+.kantener_img{
+  display: block;
+}
+.ka2span{
+  display: none;
+}
+.work_text{
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #6b6b6c;
+width: 667px;
+}
+}

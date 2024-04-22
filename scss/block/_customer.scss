@@ -1,0 +1,153 @@
+.customer{
+  padding-top: 120px;
+}
+
+.customer_title{
+  font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+color: #fff;
+text-align: center;
+padding-top: 32px;
+margin-bottom: 40px;
+}
+
+.customer_block{
+  background-color: #0b7572;
+  width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.customer_block_img{
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 32px;
+}
+
+.customer_img{
+  display: none;
+}
+
+.customer_content_main_title{
+  font-weight: 600;
+font-size: 28px;
+line-height: 125%;
+color: #363738;
+}
+
+.customer_content_title{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  color: #363738;
+  padding-top: 24px;
+  margin-left: 47px;
+}
+
+.customer_content_text{
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #6b6b6c;
+  margin-top: 16px;
+  padding-bottom: 32px;
+  margin-left: 47px;
+  margin-right: 24px;
+
+}
+
+.customerline{
+  width: 99px;
+  height: 3px;
+  background-color: orange;
+  margin-top: 14px;
+  display: none;
+}
+
+.customer_item{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  fill: #fff;
+box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+border-radius: 10px;
+}
+
+.customer_tablet{
+  display: none;
+}
+
+.customer_dekstob_img{
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+.customer_block{
+  width: 768px;
+}
+
+.customer_block_img{
+  display: none;
+}
+
+.customer_tablet{
+  display: block;
+  margin-left: 39px;
+  margin-right: 42px;
+}
+.customer_content_title{
+  margin-left: 85px;
+}
+.customerline{
+  display: block;
+  margin-left: 85px;
+}
+
+.customer_content_text{
+  margin-left: 85px;
+}
+.customer_content_main_title{
+  margin-top: 30px;
+}
+  
+}
+
+@media screen and (min-width:1024px) {
+  .customer_img{
+    display: block;
+    margin-left: 96px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .customer_tablet{
+    display: none;
+  }
+
+  .customer_dekstob_img{
+    display: block;
+    margin-right: 66px;
+  }
+
+  .customer_block{
+    display: flex;
+    gap: 20px;
+  }
+  .customer_title{
+    margin-left: 81px;
+  }
+  .customer_item{
+    display: flex;
+    gap: 56px;
+  }
+  .customer_content_title{
+    margin-left: -5px;
+  }
+  .customer_content_text{
+    margin-left: -5px;
+  }
+  .customerline{
+    margin-left: -5px;
+  }
+}
